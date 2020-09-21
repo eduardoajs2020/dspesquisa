@@ -26,7 +26,6 @@ public class Record implements Serializable {
 	private Long id;
 	private String name;
 	private Integer age;
-
 	private Instant moment;
 	
 	@ManyToOne
@@ -37,7 +36,6 @@ public class Record implements Serializable {
 	}
 
 	public Record(Long id, String name, Integer age, Instant moment, Game game) {
-		super();
 		this.id = id;
 		this.name = name;
 		this.age = age;

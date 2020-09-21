@@ -43,7 +43,6 @@ public class Game implements Serializable {
 	}
 
 	public Game(Long id, String title, Platform platform, Genre genre) {
-		super();
 		this.id = id;
 		this.title = title;
 		this.platform = platform;
